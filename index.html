@@ -4,53 +4,69 @@
         <meta charset = "UTF-8" />
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
         <title>Art Fight</title>
-        <link rel = "stylesheet" href = "style.scss"/>
+        <link rel = "stylesheet" href = "./style.css"/>
+        <link rel = "stylesheet" href = "./navbar.css"/>
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav>
-            
-            <ul class = "navbar-list">
-                <li class = "nav-item">
-                    <a class = "nav-link" href = "https://artfight.net/~Starelie">
-                        <img class = "Art-Fight-Logo nav-item" src = "https://artfight.net/images/logo40.png">
-                        My Art Fight Profile
+            <ul class = "navbar-ul">
+                <li class = "margin-right">
+                    <a class = "nav-link" href = "https://artfight.net">
+                        <img class = "art-fight-logo margin-right" src = "https://artfight.net/images/logo40.png">
+                        ART FIGHT
                     </a>
                 </li>
-                <li class = "nav-item">
+                <!-- <li class = "margin-right">
                     <a class = "nav-link" href = "">
                         My brother's images
                     </a>
-                </li>
-                <li class = "nav-item">
+                </li> -->
+                <li class = "margin-right">
                     <a class = "nav-link" href = "https://github.com/Starelie">
-                        <div class = "GitHub-logo"></div>
-                        GitHub
+                        <i class="fa fa-github" style="font-size: 24px;"></i>
+                        &nbspGitHub
                     </a>
                 </li>
-                <li class = "nav-item">
-                    <a class = "nav-link" href = "https://github.com/Starelie/SudokuBruteforce">
-                        Website's Repository
+                <li class = "margin-right">
+                    <a class = "nav-link " href = "https://github.com/Starelie/SudokuBruteforce">
+                        &lt/> Website's Repository
                     </a>
                 </li>
             </ul>
+            <div class = "profile">
+                <a class = "profile-link" href = "https://artfight.net/~Starelie">
+                    <div class = "nav-link">My Art Fight Profile</div>
+                    <img class = "profile-picture" src = "images/Profile-Pictures/Alesha-Who-Smiles-at-Death-Fate-Reforged-MtG-Art-Square-Right.jpg">
+                </a>
+            </div>
         </nav>
         <main>
             <h1>Welcome to my Art Fight website</h1>
-            <div>
+            <div class = image-container>
                 <h3>Profile pictures</h3>
-                <div class = "empty">Empty :/ <span>(for now)</span></div>
+                <h4>Current profile picture:</h4>
+                <img class = "current-profile" src = "images/Profile-Pictures/Alesha-Who-Smiles-at-Death-Fate-Reforged-MtG-Art-Square-Right.jpg">
+                <h4>Old profile pictures: <span class = "gray">(filler)</span></h4>
+                <div class = "old-profiles">
+                    <img src = "images/Profile-Pictures/Alesha-Who-Smiles-at-Death-Fate-Reforged-MtG-Art-Square-Right copy.jpg">
+                    <img src = "images/Profile-Pictures/Alesha-Who-Smiles-at-Death-Fate-Reforged-MtG-Art-Square-Right copy 1.jpg">
+                    <img src = "images/Profile-Pictures/Alesha-Who-Smiles-at-Death-Fate-Reforged-MtG-Art-Square-Right copy 2.jpg">
+                    <img src = "images/Profile-Pictures/Alesha-Who-Smiles-at-Death-Fate-Reforged-MtG-Art-Square-Right copy 3.jpg">
+                    <img src = "images/Profile-Pictures/Alesha-Who-Smiles-at-Death-Fate-Reforged-MtG-Art-Square-Right copy 4.jpg">
+                </div>
             </div>
-            <div>
+            <div class = image-container>
                 <h3>Characters</h3>
-                <div class = "empty">Empty :/ <span>(for now)</span></div>
+                <p class = "empty">Empty :/ <span class = "gray">(for now)</span></p>
             </div>
-            <div>
+            <div class = image-container>
                 <h3>Attacks</h3>
-                <div class = "empty">Empty :/ <span>(for now)</span></div>
+                <p class = "empty">Empty :/ <span class = "gray">(for now)</span></p>
             </div>
-            <div>
+            <div class = image-container>
                 <h3>Defences</h3>
-                <div class = "empty">I will be adding them all at the end of the event :)</div>
+                <p class = "empty">I will be adding them all at the end of the event :)</p>
             </div>
         </main>
     </body>

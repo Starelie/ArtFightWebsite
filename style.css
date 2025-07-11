@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #451571;
+  background: #e7d4f9;
+  transition: all 0.5s ease;
+  line-height: 1.6;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+.empty {
+  text-align: center;
+  width: 100vw;
+}
+
+h1, h3, h4 {
+  text-align: center;
+}
+
+.gray {
+  color: #808080;
+  opacity: 50%;
+  font-size: small;
+}
+
+.margin-right {
+  display: inline;
+  margin-right: 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafad2;
+  border: 16px solid #ffff00;
+  border-radius: 16px;
+  width: 80%;
+  margin: 24px auto;
+  padding: 8px;
+}
+.image-container img {
+  max-width: 50%;
+  border: 8px groove #8a2be2;
+}
+
+.old-profiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

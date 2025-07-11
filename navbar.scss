@@ -1,0 +1,39 @@
+@use "base.scss";
+
+nav {
+    background-color: #dbbff6;
+    display: flex;
+    padding: 8px 16px;
+    height: 40px;
+    justify-content: space-between;
+
+    * {
+        display: inline;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: base.$text;
+        padding: 8px 16px;
+        display: flex;
+    }
+}
+
+.navbar-ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.art-fight-logo {
+    width: 24px;
+}
+
+.profile-picture {
+    width: 40px;
+}
+
+.profile-link {
+    display: flex;
+    text-decoration: none;
+}

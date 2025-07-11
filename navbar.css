@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #451571;
+  background: #e7d4f9;
+  transition: all 0.5s ease;
+  line-height: 1.6;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+nav {
+  background-color: #dbbff6;
+  display: flex;
+  padding: 8px 16px;
+  height: 40px;
+  justify-content: space-between;
+}
+nav * {
+  display: inline;
+}
+nav .nav-link {
+  text-decoration: none;
+  color: #451571;
+  padding: 8px 16px;
+  display: flex;
+}
+
+.navbar-ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.art-fight-logo {
+  width: 24px;
+}
+
+.profile-picture {
+  width: 40px;
+}
+
+.profile-link {
+  display: flex;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=navbar.css.map */

@@ -1,47 +1,46 @@
-@import "base.scss";
+@use "base.scss";
 
 .empty {
     text-align: center;
     width: 100vw;
 }
 
-h1, h3 {
+h1, h3 , h4 {
     text-align: center;
 }
 
-span {
-    color: gray;
+.gray {
+    color: base.$gray;
     opacity: 50%;
     font-size: small;
 }
 
-nav {
-    background-color: black;
-    display: flex;
-    padding: 5px 10px;
-    height: 42px;
-}
-
-.nav-item {
+.margin-right {
     display: inline;
-    margin: 0 10px 0 0;
+    margin-right: 10px;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: $text;
-    padding: 0.5rem 1rem;
+.image-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: base.$background-secondairy;
+    border: 16px solid base.$secondairy;
+    border-radius: 16px;
+    width: 80%;
+    margin: 24px auto;
+    padding: 8px;
+
+    img {
+        max-width: 50%;
+        border: 8px groove base.$primairy;
+    }
 }
 
-.navbar-list {
+.old-profiles {
     display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.Art-Fight-Link {
-    color: $text;
-    text-decoration: none;
-    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
 }

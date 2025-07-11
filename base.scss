@@ -1,8 +1,12 @@
-$text: #8a2be2;
-// $text: blue;
-$background: #9370d8;
+// @import "./main.scss";
+
+$text: #451571;
+$background: #e7d4f9;
+$background-secondairy: #fafad2;
 $primairy: #8a2be2;
-$secondairy: #c6538c;
+$secondairy: #ffff00;
+
+$gray: #808080;
 
 html {
     scroll-behavior: smooth;
