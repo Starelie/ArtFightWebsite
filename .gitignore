@@ -1,3 +1,2 @@
-# 
-*.map
-*.scss
+# ignore css.map files created by scss
+*.css.map
