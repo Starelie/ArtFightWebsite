@@ -1,5 +1,3 @@
-// @import "./main.scss";
-
 $text: #451571;
 $background: #e7d4f9;
 $background-secondairy: #fafad2;
@@ -13,8 +11,8 @@ html {
 }
 
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     color: $text;
     background: $background;
     transition: all 0.5s ease;

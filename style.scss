@@ -5,7 +5,7 @@
     width: 100vw;
 }
 
-h1, h3 , h4 {
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
@@ -29,10 +29,10 @@ h1, h3 , h4 {
     border-radius: 16px;
     width: 80%;
     margin: 24px auto;
-    padding: 8px;
+    padding: 16px;
 
     img {
-        max-width: 50%;
+        width: calc(48% - 16px);
         border: 8px groove base.$primairy;
     }
 }
@@ -42,5 +42,4 @@ h1, h3 , h4 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 16px;
 }
